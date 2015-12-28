@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: cda76f380da5a7440a4657a985fc71cb
+timeCreated: 1445151682
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: chara_0
+    21300002: chara_1
+    21300004: chara_2
+    21300006: chara_3
+    21300008: chara_4
+    21300010: chara_5
+    21300012: chara_6
+    21300014: chara_7
+    21300016: chara_8
+    21300018: chara_9
+    21300020: chara_10
+    21300022: chara_11
+    21300024: chara_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: chara_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 156
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chara_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 163
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chara_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 168
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chara_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 156
+        width: 64
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chara_4
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 153
+        width: 69
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chara_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 89
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chara_6
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 89
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chara_7
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 76
+        width: 80
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chara_8
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 73
+        width: 77
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chara_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 16
+        width: 88
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chara_10
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 19
+        width: 82
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chara_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 12
+        width: 70
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chara_12
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 7
+        width: 70
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

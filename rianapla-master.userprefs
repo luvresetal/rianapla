@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\rianapla.cs">
+    <Files>
+      <File FileName="Assets\Scripts\weak.cs" Line="34" Column="1" />
+      <File FileName="Assets\Scripts\sizuku.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MainLoop.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\rianapla.cs" Line="41" Column="2" />
+      <File FileName="Assets\Scripts\Over.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
