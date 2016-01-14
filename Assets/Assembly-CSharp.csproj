@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{22C73896-1DB5-B9FD-042A-636AED7CBC54}</ProjectGuid>
+	<ProjectGuid>{17533FA3-357A-CEC6-ED1C-9FA92629C572}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,24 +45,24 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\HUD\CountDown.cs" />
-     <Compile Include="Assets\Scripts\HUD\CountNumber.cs" />
+     <Compile Include="Assets\Scripts\Main\CountDown.cs" />
+     <Compile Include="Assets\Scripts\Main\CountNumber.cs" />
+     <Compile Include="Assets\Scripts\Main\MainLoop.cs" />
+     <Compile Include="Assets\Scripts\Main\Over.cs" />
+     <Compile Include="Assets\Scripts\Main\SoundManager.cs" />
+     <Compile Include="Assets\Scripts\Main\Title.cs" />
+     <Compile Include="Assets\Scripts\Result\count.cs" />
+     <Compile Include="Assets\Scripts\Result\countHat.cs" />
+     <Compile Include="Assets\Scripts\Result\goTitle.cs" />
+     <Compile Include="Assets\Scripts\Result\total.cs" />
      <Compile Include="Assets\Scripts\Rianapla\bomb.cs" />
-     <Compile Include="Assets\Scripts\Rianapla\duplicate.cs" />
      <Compile Include="Assets\Scripts\Rianapla\eat.cs" />
      <Compile Include="Assets\Scripts\Rianapla\hat.cs" />
      <Compile Include="Assets\Scripts\Rianapla\move.cs" />
      <Compile Include="Assets\Scripts\Rianapla\rianapla.cs" />
      <Compile Include="Assets\Scripts\Rianapla\sizuku.cs" />
-     <Compile Include="Assets\Scripts\Systen\MainLoop.cs" />
-     <Compile Include="Assets\Scripts\Systen\Over.cs" />
-     <Compile Include="Assets\Scripts\Systen\SoundManager.cs" />
-     <Compile Include="Assets\Scripts\Systen\Title.cs" />
-     <Compile Include="Assets\Scripts\Systen\count.cs" />
-     <Compile Include="Assets\Scripts\Systen\countHat.cs" />
-     <Compile Include="Assets\Scripts\Systen\goTitle.cs" />
-     <Compile Include="Assets\Scripts\Systen\total.cs" />
-     <Compile Include="Assets\bo.cs" />
+     <Compile Include="Assets\Scripts\Tutorial\changePage.cs" />
+     <Compile Include="Assets\Scripts\Tutorial\goTutorial.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

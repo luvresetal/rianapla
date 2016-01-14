@@ -31,6 +31,7 @@ public class sizuku : MonoBehaviour {
 		}
 		//ランダムでいろいろなリアナプラを生成
         //確率はかなり適当
+        //もぐもぐとばくはつは後回しにするので、ふつうを出す
 		else{
 			Vector3 position = this.transform.position;
 			Destroy(sibuki);
@@ -45,14 +46,16 @@ public class sizuku : MonoBehaviour {
             }
             else if (ram >= 71 && ram <= 78)
             {
-                Instantiate(eat, position, Quaternion.identity);
+                Instantiate(normal, position, Quaternion.identity);
+                //Instantiate(eat, position, Quaternion.identity);
             }
             else if (ram >= 79 && ram <= 89)
             {
                 Instantiate(big, position, Quaternion.identity);
             }
             else if (ram >= 90 && ram <= 94){
-                Instantiate(bomb, position, Quaternion.identity);
+                Instantiate(normal, position, Quaternion.identity);
+                //Instantiate(bomb, position, Quaternion.identity);
             }
             else
             {
