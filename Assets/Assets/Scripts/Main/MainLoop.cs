@@ -19,6 +19,7 @@ public class MainLoop : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        //時間が0になったらゲーム終了
 		if(gameTime >= 0){
 			gameTime -= Time.deltaTime;
 		}
@@ -26,7 +27,6 @@ public class MainLoop : MonoBehaviour {
         {
             Application.LoadLevel("result");
         }
-
 	}
 
     public static int getnumber()

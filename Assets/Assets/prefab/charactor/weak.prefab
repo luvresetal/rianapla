@@ -12,7 +12,7 @@ GameObject:
   - 95: {fileID: 9558244}
   - 50: {fileID: 5011014}
   - 61: {fileID: 6153462}
-  - 114: {fileID: 11428512}
+  - 114: {fileID: 11404850}
   m_Layer: 0
   m_Name: weak
   m_TagString: Untagged
@@ -78,7 +78,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11428512
+--- !u!114 &11404850
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -86,12 +86,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 139046}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9af176c0c102031438f4cd15c9c118e7, type: 3}
+  m_Script: {fileID: 11500000, guid: d5392a8b65ad0e44c98a8a82d63c8354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: .00999999978
-  sibuki: {fileID: 0}
-  increment: 0
+  speed: .100000001
 --- !u!212 &21269336
 SpriteRenderer:
   m_ObjectHideFlags: 1

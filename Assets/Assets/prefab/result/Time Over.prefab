@@ -40,7 +40,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 363eb02301be09f41a0a64a5e6167975, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextCount: {fileID: 100036, guid: 1cf11e40d0a3ec24eb1e61a936d22ad9, type: 2}
+  nextCount: {fileID: 147292, guid: 1cf11e40d0a3ec24eb1e61a936d22ad9, type: 2}
 --- !u!132 &13247624
 GUIText:
   m_ObjectHideFlags: 1
@@ -74,7 +74,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: nextCount
       value: 
-      objectReference: {fileID: 100036, guid: 1cf11e40d0a3ec24eb1e61a936d22ad9, type: 2}
+      objectReference: {fileID: 147292, guid: 1cf11e40d0a3ec24eb1e61a936d22ad9, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 135804}

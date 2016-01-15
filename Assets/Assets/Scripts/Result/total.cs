@@ -14,12 +14,15 @@ public class total : MonoBehaviour {
     // Use this for initialization
     void Start () {
         totalScore = count.getScore() + countHat.getBonus();
-	}
+        position = tapTitle.transform.position;
+    }
 	
 	// Update is called once per frame
 	void Update () {
         totalText.text = totalCounter.ToString();
 
+        countUp();
+        countUp();
         countUp();
         countUp();
         countUp();

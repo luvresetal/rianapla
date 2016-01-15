@@ -46,8 +46,8 @@ public class rianapla : MonoBehaviour {
 			GameObject obj = aCollider2d.transform.gameObject;
 			Vector3 position = obj.transform.position;
 			Destroy(obj);
-			//	SoundManager.soundFlag = true;
-			for(int i = 0;i < increment; ++i){
+            SoundManager.normalSound = true;
+            for (int i = 0;i < increment; ++i){
 				Instantiate(sibuki, position, Quaternion.identity);
 			}
 			--MainLoop.number;

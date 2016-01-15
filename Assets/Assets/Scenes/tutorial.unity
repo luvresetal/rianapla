@@ -407,6 +407,18 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11477926, guid: cbf0d5bff426a934ba46e39392c305f2, type: 2}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11477926, guid: cbf0d5bff426a934ba46e39392c305f2, type: 2}
+      propertyPath: m_MatchWidthOrHeight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454892, guid: cbf0d5bff426a934ba46e39392c305f2, type: 2}
+      propertyPath: distance
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cbf0d5bff426a934ba46e39392c305f2, type: 2}
   m_IsPrefabParent: 0
@@ -435,7 +447,7 @@ RectTransform:
   m_GameObject: {fileID: 1289639278}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.11249995, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1914539000}
   m_RootOrder: 1
@@ -602,10 +614,18 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22497224, guid: 6bb86e65dfb61b0469dd722319b2eded, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22496848, guid: 6bb86e65dfb61b0469dd722319b2eded, type: 2}
       propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11429614, guid: 6bb86e65dfb61b0469dd722319b2eded, type: 2}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11429614, guid: 6bb86e65dfb61b0469dd722319b2eded, type: 2}
+      propertyPath: m_MatchWidthOrHeight
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -664,7 +684,7 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!224 &1914539000 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22479856, guid: 6d88af649b29ed643886036894ea9935,
@@ -748,6 +768,14 @@ Prefab:
     - target: {fileID: 22479856, guid: 6d88af649b29ed643886036894ea9935, type: 2}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11436666, guid: 6d88af649b29ed643886036894ea9935, type: 2}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11436666, guid: 6d88af649b29ed643886036894ea9935, type: 2}
+      propertyPath: m_MatchWidthOrHeight
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6d88af649b29ed643886036894ea9935, type: 2}

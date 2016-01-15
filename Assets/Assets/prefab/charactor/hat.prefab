@@ -12,7 +12,6 @@ GameObject:
   - 95: {fileID: 9595940}
   - 50: {fileID: 5019006}
   - 61: {fileID: 6150492}
-  - 114: {fileID: 11451052}
   - 114: {fileID: 11433554}
   m_Layer: 0
   m_Name: hat
@@ -90,17 +89,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f075b1926e3cf0346a5a87a196b16160, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11451052
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 170930}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9af176c0c102031438f4cd15c9c118e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   speed: .100000001
   sibuki: {fileID: 100000, guid: 642eb44b14d345c4a9fc091725a33d5c, type: 2}
   increment: 3
@@ -160,6 +148,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: increment
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

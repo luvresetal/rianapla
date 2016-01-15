@@ -517,12 +517,12 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -792,6 +792,14 @@ Prefab:
       propertyPath: m_Text
       value: "\u3000\u30AD\u30E3\u30E9\u7D39\u4ECB1"
       objectReference: {fileID: 0}
+    - target: {fileID: 11477926, guid: cbf0d5bff426a934ba46e39392c305f2, type: 2}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11477926, guid: cbf0d5bff426a934ba46e39392c305f2, type: 2}
+      propertyPath: m_MatchWidthOrHeight
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cbf0d5bff426a934ba46e39392c305f2, type: 2}
   m_IsPrefabParent: 0
@@ -1002,6 +1010,14 @@ Prefab:
     - target: {fileID: 11454544, guid: 6d88af649b29ed643886036894ea9935, type: 2}
       propertyPath: distance
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11436666, guid: 6d88af649b29ed643886036894ea9935, type: 2}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11436666, guid: 6d88af649b29ed643886036894ea9935, type: 2}
+      propertyPath: m_MatchWidthOrHeight
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6d88af649b29ed643886036894ea9935, type: 2}

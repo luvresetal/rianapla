@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class SoundManager : MonoBehaviour {
-
+    //ふつうプラ用
 	public AudioSource voice1;
 	public AudioSource voice2;
 	public AudioSource voice3;
@@ -10,19 +10,26 @@ public class SoundManager : MonoBehaviour {
 	public AudioSource voice5;
 	public AudioSource voice6;
 
-	public static bool soundFlag;
+    public static bool normalSound;
+
+    //よわよわプラ用
+    public AudioSource weak;
+
+    public static bool weakSound;
 
 	// Use this for initialization
 	void Start () {
-		soundFlag = false;
+		normalSound = false;
+        weakSound = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if(soundFlag == true){
+        //ふつうプラ用
+        if (normalSound == true){
 			int randamVoice;
 			randamVoice = Random.Range(1,6);
-			Debug.Log(randamVoice);
+            Debug.Log(randamVoice);
 			switch(randamVoice){
 			case 1 : voice1.Play();
 				break;
@@ -39,7 +46,13 @@ public class SoundManager : MonoBehaviour {
 			default : voice1.Play();
 				break;
 			}
-			soundFlag = false;
+			normalSound = false;
 		}
-	}
+
+        //よわよわプラ用
+        if(weakSound == true) {
+            weak.Play();
+            weakSound = false;
+        }
+    }
 }
