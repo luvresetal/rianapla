@@ -14,16 +14,16 @@ public class changePage : MonoBehaviour {
 	    
 	}
 
-    void OnClick ()
+    public void OnClick ()
     {
-        Debug.Log(distance);
+        Debug.Log("aaaa");
         //遷移先のページはswitch文で分岐
         switch (distance)
         {
-            case 0 : Application.LoadLevel("tutorial"); Debug.Log(distance);  break;
-            case 1 : Application.LoadLevel("chara1"); Debug.Log(distance);  break;
-            case 2 : Application.LoadLevel("chara2"); Debug.Log(distance);  break;
-            case 3 : Application.LoadLevel("chara3"); Debug.Log(distance);  break;
+            case 0 : Application.LoadLevel("tutorial"); break;
+            case 1 : Application.LoadLevel("chara1"); break;
+            case 2 : Application.LoadLevel("chara2"); break;
+            case 3 : Application.LoadLevel("chara3"); break;
             default: break;
         }
        
