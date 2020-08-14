@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class CountDown : MonoBehaviour {
 
@@ -10,6 +11,6 @@ public class CountDown : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		this.GetComponent<GUIText>().text = "残り" + MainLoop.gameTime.ToString("N0") + "秒";
+		this.GetComponent<Text>().text = "残り" + MainLoop.gameTime.ToString("N0") + "秒";
 	}
 }

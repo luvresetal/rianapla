@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class CountNumber : MonoBehaviour {
     //ゲーム中のリアナプラの数
@@ -10,6 +11,6 @@ public class CountNumber : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		this.GetComponent<GUIText>().text = MainLoop.number.ToString() + "匹";
+		this.GetComponent<Text>().text = MainLoop.number.ToString() + "匹";
 	}
 }
