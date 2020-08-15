@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Title : MonoBehaviour {
 	//タイトル制御
@@ -16,7 +17,8 @@ public class Title : MonoBehaviour {
 
     public void OnClick()
     {
-            // タップしたら、シーンを移動する
-            Application.LoadLevel("main");
-    }
+		// タップしたら、シーンを移動する
+		//Application.LoadLevel("main");
+		SceneManager.LoadScene("main");
+	}
 }

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class goTutorial : MonoBehaviour {
 
@@ -15,6 +16,6 @@ public class goTutorial : MonoBehaviour {
     public void OnClick()
     {
         // タップしたら、シーンを移動する
-        Application.LoadLevel("tutorial");
-    }
+		SceneManager.LoadScene("tutorial");
+	}
 }

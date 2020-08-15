@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class goTitle : MonoBehaviour {
     //結果発表し終わったのでタップでタイトルへ
@@ -15,6 +16,6 @@ public class goTitle : MonoBehaviour {
     public void OnClick()
     {
         // タップしたら、シーンを移動する
-        Application.LoadLevel("title");
+        SceneManager.LoadScene("title");
     }
 }
