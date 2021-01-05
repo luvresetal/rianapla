@@ -29,7 +29,6 @@ public class SoundManager : MonoBehaviour {
         if (normalSound == true){
 			int randamVoice;
 			randamVoice = Random.Range(1,6);
-            Debug.Log(randamVoice);
 			switch(randamVoice){
 			case 1 : voice1.Play();
 				break;

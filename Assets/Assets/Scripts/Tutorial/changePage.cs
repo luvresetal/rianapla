@@ -17,7 +17,6 @@ public class changePage : MonoBehaviour {
 
     public void OnClick ()
     {
-        Debug.Log("aaaa");
         //遷移先のページはswitch文で分岐
         switch (distance)
         {
