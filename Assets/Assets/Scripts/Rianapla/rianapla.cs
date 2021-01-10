@@ -11,7 +11,7 @@ public class rianapla : MonoBehaviour {
 
 	//分裂
 	public GameObject sibuki;
-	public int increment = 1;
+	public int increment = 3;
 
 	void Start () {
 		++MainLoop.number;
@@ -19,7 +19,7 @@ public class rianapla : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//移動はランダムで　ゆっくり目な感じで？;
+		// 移動はランダムで　ゆっくり目な感じで
 		if(time >= 1){
 			--time;
 		}
@@ -32,25 +32,20 @@ public class rianapla : MonoBehaviour {
 			GetComponent<Rigidbody2D>().velocity = moving * speed;
 		}
 
-		//分裂
-		if (Input.GetMouseButtonDown(0)) {
-
-		}
+		// 負荷を軽くするため、画面外に出たら消す(カウントは減らさない)
 	}
 
-	void OnMouseDown(){
-		Vector2    aTapPoint   = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-		Collider2D aCollider2d = Physics2D.OverlapPoint(aTapPoint);
-		
-		if (aCollider2d) {
-			GameObject obj = aCollider2d.transform.gameObject;
-			Vector3 position = obj.transform.position;
-			Destroy(obj);
-            SoundManager.normalSound = true;
-            for (int i = 0;i < increment; ++i){
-				Instantiate(sibuki, position, Quaternion.identity);
-			}
-			--MainLoop.number;
+	// タップして増殖
+	public void OnTap()
+	{
+		Debug.Log("tap");
+		SoundManager.normalSound = true;
+		for (int i = 0; i < increment; ++i)
+		{
+			Instantiate(sibuki, this.gameObject.transform.position, Quaternion.identity);
 		}
+		--MainLoop.number;
+		Destroy(this.gameObject);
+		Debug.Log("delete");
 	}
 }

@@ -60,7 +60,6 @@
     <Compile Include="Assets\Scripts\Rianapla\rianapla.cs" />
     <Compile Include="Assets\Scripts\Main\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Rianapla\hat.cs" />
-    <Compile Include="Assets\Scripts\Rianapla\normal.cs" />
     <Compile Include="Assets\Scripts\Main\Over.cs" />
     <Compile Include="Assets\Scripts\Main\MainLoop.cs" />
     <Compile Include="Assets\Scripts\Result\countHat.cs" />
