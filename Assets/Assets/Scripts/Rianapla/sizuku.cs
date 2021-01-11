@@ -9,11 +9,10 @@ public class sizuku : MonoBehaviour {
 	public GameObject weak;
 	public GameObject big;
 	public GameObject bomb;
-	int count = 0;
+	public int count = 0;
 	int speed = 5;
 	// Use this for initialization
 	void Start () {
-		count = 10;
 		//飛び散る方向はランダムで
 		float angle_x = 0.0f;
 		float angle_y = 0.0f;

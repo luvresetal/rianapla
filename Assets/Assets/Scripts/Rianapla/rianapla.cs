@@ -32,13 +32,21 @@ public class rianapla : MonoBehaviour {
 			GetComponent<Rigidbody2D>().velocity = moving * speed;
 		}
 
-		// 負荷を軽くするため、画面外に出たら消す(カウントは減らさない)
+		if(!(this.GetComponent<Renderer>().isVisible))
+		{
+			
+			//Destroy(this.gameObject);
+		}
 	}
 
+	// 負荷を軽くするため、画面外に出たら消す(カウントは減らさない)
+	void OnBecameInvisible()
+	{
+
+	}
 	// タップして増殖
 	public void OnTap()
 	{
-		Debug.Log("tap");
 		SoundManager.normalSound = true;
 		for (int i = 0; i < increment; ++i)
 		{
@@ -46,6 +54,5 @@ public class rianapla : MonoBehaviour {
 		}
 		--MainLoop.number;
 		Destroy(this.gameObject);
-		Debug.Log("delete");
 	}
 }
