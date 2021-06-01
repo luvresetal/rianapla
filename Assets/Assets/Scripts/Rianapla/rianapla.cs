@@ -13,8 +13,12 @@ public class rianapla : MonoBehaviour {
 	public GameObject sibuki;
 	public int increment = 3;
 
+	bool isTap;
+
 	void Start () {
 		++MainLoop.number;
+
+		isTap = false;
 	}
 	
 	// Update is called once per frame
@@ -31,28 +35,30 @@ public class rianapla : MonoBehaviour {
 			moving.y = Random.Range(-7,8);
 			GetComponent<Rigidbody2D>().velocity = moving * speed;
 		}
-
-		if(!(this.GetComponent<Renderer>().isVisible))
-		{
-			
-			//Destroy(this.gameObject);
-		}
 	}
 
 	// 負荷を軽くするため、画面外に出たら消す(カウントは減らさない)
-	void OnBecameInvisible()
+	void OnTriggerExit2D(Collider2D other)
 	{
-
+		if (!isTap)
+		{
+			Debug.Log("out");
+			Destroy(this.gameObject);
+		}
 	}
+
 	// タップして増殖
 	public void OnTap()
 	{
+		Debug.Log("tap");
 		SoundManager.normalSound = true;
 		for (int i = 0; i < increment; ++i)
 		{
 			Instantiate(sibuki, this.gameObject.transform.position, Quaternion.identity);
 		}
 		--MainLoop.number;
+		isTap = true;
 		Destroy(this.gameObject);
+		
 	}
 }
